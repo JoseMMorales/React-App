@@ -1,0 +1,66 @@
+.contact{
+  background: #333;
+}
+.contact h3{
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: #aaa;
+}
+.contact p{
+  color: #aaa;
+}
+h3::after{
+  content: "";
+  height: 2px;
+  width: 70px;
+  position: absolute;
+  bottom: 0;
+  margin-left: -35px;
+  left: 50%;
+  background: #d43031;
+}
+.background-input-text{
+  width: 310px;
+  padding: 6px 12px;
+  border: 0;
+  background-color: rgb(255, 255, 255, .2);
+  box-shadow: none;
+  line-height: 1.42857143;
+  font-size: 800;
+  font-size: 1rem;
+}
+.message{
+  padding: 6px 12px;
+  border: 0;
+  background-color: rgb(255, 255, 255, .2);
+  box-shadow: none;
+  line-height: 1.42857143;
+  font-size: 800;
+  font-size: 1rem;
+}
+.btn-custom{
+  padding: 14px 20px;
+  margin: 0;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  color: #777;
+  background-color: transparent;
+  border: 2px solid #777;
+  border-radius: 0;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+.btn-custom:hover{
+  color: #d43031;
+}
+/* MEDIA QUERY SELECTION */
+@media (max-width: 768px) {
+  .form-control, .background-input-text{
+    width: 100%;
+  }
+  .btn-custom{
+    margin-bottom: 20px;
+  }
+}

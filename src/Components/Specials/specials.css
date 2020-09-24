@@ -1,0 +1,25 @@
+h2{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.375rem;
+}
+h2::after{
+  content: "";
+  height: 2px;
+  width: 70px;
+  position: absolute;
+  bottom: 0;
+  margin-left: -35px;
+  left: 50%;
+  background: #d43031;
+}
+@media (max-width: 768px){
+  h2{
+    font-size: 1.8125rem;
+  }
+}

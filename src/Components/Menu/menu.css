@@ -1,0 +1,28 @@
+h3{
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2.375rem;
+}
+h3::after{
+  content: "";
+  height: 2px;
+  width: 70px;
+  position: absolute;
+  margin-left: -35px;
+  left: 50%;
+  bottom: 0;
+  background: #d43031;
+}
+.name-food{
+  font-weight: bolder;
+}
+@media (max-width: 768px){
+  h3{
+    font-size: 1.75rem;
+  }
+}
