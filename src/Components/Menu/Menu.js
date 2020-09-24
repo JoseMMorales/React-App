@@ -1,6 +1,6 @@
 import React from 'react';
 import './menu.css';
-import { ElementGroup, TypeElementGroup } from '../Data/data.js';
+import { ElementGroup, TypeElementGroup } from '../../Data/Data.js';
 
 export const Menu = ({ type }) => {
    let nameType = TypeElementGroup.find(e => e.id.toString() === type).name;

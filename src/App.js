@@ -1,11 +1,11 @@
 import React from 'react';
 import { Navbar } from './Components/Navbar/navbar.js';
 import { Home } from './Components/Home/Home.js'
-import { SpecialList } from './Content/SpecialList/SpecialList.js';
+import { SpecialList } from './Container/SpecialList/SpecialList.js';
 import { History } from './Components/History/History.js';
-import { MenuList } from './Content/MenuList/MenuList.js';
+import { MenuList } from './Container/MenuList/MenuList.js';
 import { ImagesGallery } from './Components/ImagesGallery/ImagesGallery.js';
-import { ContactList } from './Content/ContactList/ContactList.js';
+import { ContactList } from './Container/ContactList/ContactList.js';
 import { Footer } from './Components/Footer/Footer.js';
 
 function App() {
