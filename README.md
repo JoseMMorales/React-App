@@ -11,7 +11,7 @@ Template created in hands on React JS course attended at [CodeSpace](https://cod
 ## Setting up React JS
 #### Enter in your terminal:
 * $npm install -g create-react-app
-* $create-react-app.restaurant
+* $create-react-app restaurant
 * cd react
 * npm start
 #### Once installed:
