@@ -1,68 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Restaurant App
 
-## Available Scripts
+Template created in hands on React JS course attended at [CodeSpace](https://codespaceacademy.com/). We will use Node JS, React JS and Bootstrap for a visual single page (SPA) able to be displayed in Chrome, Firefox and Safari.
 
-In the project directory, you can run:
+## Pre-requisites
 
-### `yarn start`
+* Install Node JS ([Click here to download](https://nodejs.org/en/download/)).
+* Install Visual Studio Code ([Click here to download](https://code.visualstudio.com/download)).
+* Install React JS as per below steps in your terminal.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Setting up React JS
+#### Enter in your terminal:
+* $npm install -g create-react-app
+* $create-react-app.restaurant
+* cd react
+* npm start
+#### Once installed:
+* It will pop up a local host in your browser.
+* You should see displayed imagen below to confirm all features have been accordingly set up.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![2 ReactImage](https://user-images.githubusercontent.com/43299285/94238942-57283080-ff11-11ea-98b3-583622b39fa9.png)
 
-### `yarn test`
+## Screenshot Restaurant App:
+### **Home**
+![Image Home](https://user-images.githubusercontent.com/43299285/94242637-a45ad100-ff16-11ea-9625-40ccea868d33.png)
+### **Specials**
+![Image Specials](https://user-images.githubusercontent.com/43299285/94242686-b8063780-ff16-11ea-8d6b-91d96d902d5e.png)
+### **History**
+![Image History](https://user-images.githubusercontent.com/43299285/94242907-fdc30000-ff16-11ea-83ca-bd5e5ea46e23.png)
+### **Menu**
+![Image Menu](https://user-images.githubusercontent.com/43299285/94242993-1cc19200-ff17-11ea-869b-b7ee1b10198a.png)
+## **Footer**
+![Image Footer](https://user-images.githubusercontent.com/43299285/94243076-37940680-ff17-11ea-8d7f-79fe5858eaca.png)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
+These instructions will get you a copy of the project up on your local machine.
 
-### `yarn build`
+## Installing
+* Clone the project to your local directory.
+* $git clone https://github.com/JoseMMorales/React-App.git
+* $cd React-App
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Library version:
+* Node JS v10.16.3
+* Bootstrap v4.5.2
+* JQuery v3.5.1
+* React-scroll v1.8.1
+* React-dom v16.13.1
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Author
+Jose MMorales
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
